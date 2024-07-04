@@ -1,11 +1,14 @@
 .title {
     font-size: 40px;
     padding-top: 20px;
-    color: rgb(84, 84, 84);
+    color: rgb(104, 104, 104);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .subtitle {
     font-size: 20px;
+    color: rgb(74, 74, 74);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 form {
@@ -22,18 +25,32 @@ form {
 
 .button {
     align-items: start;
-    background-color: rgb(99, 180, 255);
+    background-color: rgb(140, 200, 255);
+    box-shadow: 2px 2px rgb(58, 141, 209);
     width: 100px;
     border-radius: 20px;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .pista {
     border: solid grey 2px;
     margin-bottom: 15px;
+    width: 90%;
+    color: rgb(125, 125, 125);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .intentos {
     border: solid grey 2px; 
+    width: 90%;
+    color: rgb(125, 125, 125);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
+.container {
+    background-color: rgb(239, 239, 239);
+    height: 100vh;
+}
