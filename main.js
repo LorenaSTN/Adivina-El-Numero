@@ -7,12 +7,12 @@ const tries = document.querySelector(".js-intentos");
 
 
 
-function getRandomNumber(max = 100) {
+function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
 
 };
 
-const randomNumber = getRandomNumber();
+const randomNumber = getRandomNumber(100);
 console.log(randomNumber); 
 
 
@@ -24,14 +24,14 @@ let accumulator = 0;
 function handleCheckingRamdomNumber (event) {
     event.preventDefault();
     
-    const userInput = input.value;
+    const userInput = parseInt(input.value);
    
     console.log(userInput);
    
     // console.log("ha hecho click");
     if (userInput == randomNumber){
         clue.innerHTML = "¡Has ganado campeona!";
-    }else if (userInput === ""){
+    }else if (!userInput){
         clue.innerHTML = "Por favor, introduce un número";
     }else if (userInput > 100 || userInput < 0) {
         clue.innerHTML = "El número debe estar entre 1 y 100";
