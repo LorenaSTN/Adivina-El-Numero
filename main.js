@@ -31,6 +31,8 @@ function handleCheckingRamdomNumber (event) {
     // console.log("ha hecho click");
     if (userInput == randomNumber){
         clue.innerHTML = "¡Has ganado campeona!";
+    }else if (userInput === ""){
+        clue.innerHTML = "Por favor, introduce un número"
     }else if (userInput > 100 || userInput < 0) {
         clue.innerHTML = "El número debe estar entre 1 y 100"
     }else if (userInput > randomNumber){
