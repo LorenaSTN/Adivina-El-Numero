@@ -25,13 +25,15 @@ console.log(randomNumber);
 
 
 
+let accumulator = 0
+
+
 
 function handleCheckingRamdomNumber (event) {
     event.preventDefault();
-
+    
     const userInput = input.value;
    
-
     console.log(userInput);
    
     // console.log("ha hecho click");
@@ -44,7 +46,11 @@ function handleCheckingRamdomNumber (event) {
     }else if (userInput < randomNumber){
         clue.innerHTML = "Pista: Demasiado bajo";
     }
-}
+
+    accumulator++;
+
+    tries.innerHTML = `Número de intentos: ${accumulator}`
+};
 
 
 
