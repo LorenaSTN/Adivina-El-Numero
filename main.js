@@ -9,7 +9,6 @@ const tries = document.querySelector(".js-intentos");
 
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
-
 };
 
 const randomNumber = getRandomNumber(100);
@@ -20,15 +19,10 @@ console.log(randomNumber);
 let accumulator = 0;
 
 
-
 function handleCheckingRamdomNumber (event) {
     event.preventDefault();
     
     const userInput = parseInt(input.value);
-   
-    console.log(userInput);
-   
-    // console.log("ha hecho click");
     if (userInput == randomNumber){
         clue.innerHTML = "¡Has ganado campeona!";
     }else if (!userInput){
@@ -42,13 +36,8 @@ function handleCheckingRamdomNumber (event) {
     };
 
     accumulator++;
-
     tries.innerHTML = `Número de intentos: ${accumulator}`
 };
-
-
-
-
 
 button.addEventListener("click", handleCheckingRamdomNumber);
 
