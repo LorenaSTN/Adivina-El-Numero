@@ -1,13 +1,5 @@
 "use strict";
 
-
-/*
-1. Cuando la usuaria haga click en el boton prueba
-2. recogemos el numero
-
-
-*/
-
 const button = document.querySelector(".js-button");
 const input = document.querySelector(".js-input"); 
 const clue = document.querySelector(".js-pista");
