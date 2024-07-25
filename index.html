@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivina el número</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <main class="container">
-        <h1 class="title">Adivina el número</h1>
-        <p class="subtitle">Introduce aquí tu número</p>
+      <h1 class="title">Adivina el número</h1>
 
-        <form action="">
-
-        <input type="number" class="input js-input">
-        <button type="submit" class="button js-button">Prueba</button>
-
-        </form>
+      <form action="">
+        <label for="number" class="label">Introduce aquí tu número:</label>
+        <input type="number" class="input js-input" id="number" />
+        <button type="submit" class="button js-button">PRUEBA</button>
+      </form>
+      <div class="div">
         <p class="pista js-pista">Pista: Escribe el número y dale a Prueba</p>
         <p class="intentos js-intentos">Número de intentos: 0</p>
+      </div>
     </main>
 
-
-
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
