@@ -13,7 +13,7 @@
   width: 100px;
 }
 .label {
-  font-size: 30px;
+  font-size: 23px;
   color: rgb(213, 210, 210);
   font-family: "VT323", monospace;
   margin: 20px 0px 20px 0px;
@@ -56,14 +56,14 @@ form {
   margin-bottom: 30px;
   color: rgb(213, 210, 210);
   font-family: "VT323", monospace;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 .intentos {
   color: rgb(213, 210, 210);
   font-family: "VT323", monospace;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
