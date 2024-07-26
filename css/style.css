@@ -1,18 +1,21 @@
 .title {
-  font-size: 70px;
-  padding: 20px;
-  color: rgb(13, 16, 65);
-  font-family: "Oleo Script", system-ui;
+  font-size: 78px;
+  padding: 40px;
+  color: rgb(229, 229, 229);
+  font-family: "VT323", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+.game {
+  width: 100px;
+}
 .label {
-  font-size: 20px;
-  color: rgb(13, 16, 65);
-  font-family: "Oleo Script", system-ui;
+  font-size: 30px;
+  color: rgb(213, 210, 210);
+  font-family: "VT323", monospace;
   margin: 20px 0px 20px 0px;
 }
 
@@ -26,20 +29,21 @@ form {
 .input {
   width: 200px;
   margin: 20px 0px 30px 0px;
-  border: solid rgb(6, 32, 71) 2px;
+  border: solid rgb(84, 84, 84) 2px;
+  background-color: rgb(255, 255, 255);
 }
 
 .button {
   align-items: start;
-  background-color: rgb(6, 54, 100);
-  box-shadow: 2px 2px rgb(2, 15, 25);
+  background-color: rgb(125, 125, 125);
+  box-shadow: 2px 2px rgb(37, 37, 37);
   width: 150px;
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
-  font-family: "Oleo Script", system-ui;
-  color: rgb(208, 224, 240);
-  font-size: 25px;
+  font-family: "VT323", monospace;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 
 .div {
@@ -50,20 +54,21 @@ form {
 
 .pista {
   margin-bottom: 30px;
-  color: rgb(6, 32, 71);
-  font-family: "Oleo Script", system-ui;
-  font-size: 25px;
+  color: rgb(213, 210, 210);
+  font-family: "VT323", monospace;
+  font-size: 30px;
   text-align: center;
 }
 
 .intentos {
-  color: rgb(6, 32, 71);
-  font-family: "Oleo Script", system-ui;
-  font-size: 25px;
+  color: rgb(213, 210, 210);
+  font-family: "VT323", monospace;
+  font-size: 30px;
   text-align: center;
 }
 
 body {
-  background: linear-gradient(rgb(194, 227, 254), rgb(81, 147, 169));
+  background: linear-gradient(rgb(67, 70, 70), rgb(0, 0, 0));
+  /* background-image: url("../IMAGES/fondo5.jpg"); */
   height: 100vh;
 }
