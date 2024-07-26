@@ -1,7 +1,7 @@
 .title {
   font-size: 78px;
   padding: 40px;
-  color: rgb(239, 234, 170);
+  color: rgb(247, 228, 134);
   font-family: "VT323", monospace;
   display: flex;
   align-items: center;
@@ -29,20 +29,20 @@ form {
 .input {
   width: 200px;
   margin: 20px 0px 30px 0px;
-  border: solid rgb(255, 217, 111);
+  border: solid rgb(239, 234, 170);
   background-color: rgb(255, 255, 255);
 }
 
 .button {
   align-items: start;
-  background-color: rgb(255, 217, 111);
+  background-color: rgb(114, 114, 114);
   box-shadow: 2px 2px rgb(37, 37, 37);
   width: 150px;
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: "VT323", monospace;
-  color: rgb(50, 39, 25);
+  color: rgb(234, 234, 234);
   font-size: 20px;
 }
 
